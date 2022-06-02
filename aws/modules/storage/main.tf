@@ -40,6 +40,11 @@ resource "aws_s3_bucket" "mfadeletepravinadd1" {
   acl    = var.public
 }
 
+resource "aws_s3_bucket" "mfadeletepravinadd4" {
+  bucket = "examplebuckettftestpravinadd4"
+  acl    = var.public
+}
+
 resource "aws_s3_bucket" "mfadeletepravin" {
   bucket = "examplebuckettftestpravin"
   acl    = var.public
