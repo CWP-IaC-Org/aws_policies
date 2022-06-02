@@ -30,6 +30,10 @@ resource "aws_s3_bucket" "mfadelete" {
 EOF
   }
 }
+resource "aws_s3_bucket" "mfadeletepravinadd2" {
+  bucket = "examplebuckettftestpravinadd2"
+  acl    = var.public
+}
 
 resource "aws_s3_bucket" "mfadeletepravinadd1" {
   bucket = "examplebuckettftestpravinadd1"
