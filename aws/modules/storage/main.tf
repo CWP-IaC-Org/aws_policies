@@ -31,6 +31,11 @@ EOF
   }
 }
 
+resource "aws_s3_bucket" "mfadeletepravinadd1" {
+  bucket = "examplebuckettftestpravinadd1"
+  acl    = var.public
+}
+
 resource "aws_s3_bucket" "mfadeletepravin" {
   bucket = "examplebuckettftestpravin"
   acl    = var.public
